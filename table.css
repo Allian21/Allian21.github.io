@@ -1,0 +1,85 @@
+body {
+    background-color: #e3b4d7; 
+    color: #000000; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 70rem;
+}
+
+td, th {
+    padding: 0.5rem;
+    border-bottom: 2px solid #590030; 
+    border-right: 2px solid #590030; 
+}
+s
+table tr td:first-child, 
+table tr th:first-child {
+    border-left: 2px solid #000000;
+}
+
+table tr th {
+    border-top: 2px solid #590030;
+    background-color: #ed52a4; 
+}
+
+table tr:nth-child(even) {
+    background-color: #ffcce5; 
+}
+
+table tr:nth-child(odd) {
+    background-color: #ffcce5;
+}
+
+table tr:nth-child(odd) td:nth-child(1) {
+    background-color: #ffcce5;
+}
+
+table tr:nth-child(even) td:nth-child(1) {
+    background-color: #e868ae; 
+}
+
+table tr:first-child th:first-child {
+    border-top-left-radius: 0.5rem;
+}
+
+table tr:first-child th:last-child {
+    border-top-right-radius: 0.5rem;
+}
+
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 0.5rem;
+}
+
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 0.5rem;
+}
+
+td div {
+    font-size: 12px;
+}
+
+header div {
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+hr {
+    border: none;
+    border-top: 3px solid #000000; 
+    margin: 5px 0;
+}
+
+h2 {
+    font-size: larger;
+    margin-bottom: 0.2rem; 
+}
+
+h3 {
+    margin-top: 0;
+    font-size: medium;
+}
