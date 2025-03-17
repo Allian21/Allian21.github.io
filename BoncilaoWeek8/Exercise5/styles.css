@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #000000, #5671e8);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: rgb(139, 172, 219);
+    border-radius: 10px;
+    padding: 40px 60px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
+  #quoteDisplay {
+    margin: 20px 0;
+    font-size: 1.4em;
+    color: #000000;
+  }
+  
+  #quote {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  #author {
+    font-style: italic;
+    color: #070535;
+  }
+  
+  button {
+    padding: 12px 30px;
+    font-size: 1.2em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff0000;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      padding: 30px 20px;
+    }
+  
+    h1 {
+      font-size: 2em;
+    }
+  
+    #quoteDisplay {
+      font-size: 1.2em;
+    }
+  }
+  
